@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        style="@style/TitleStyle"
+        android:text="功能列表"
+        />
+    <com.aweiyo.newmobilesafe.view.FocusTextView 
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:textSize="18sp" 
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:ellipsize="marquee"
+        android:text="欢迎使用手机卫士，保障您的安全，注重您的体验，by_aweiyo"
+        />
+    <GridView 
+        android:id="@+id/gv_home"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:numColumns="3"
+        android:verticalSpacing="20dp"
+        android:gravity="center">
+        
+    </GridView>
+
+</LinearLayout>

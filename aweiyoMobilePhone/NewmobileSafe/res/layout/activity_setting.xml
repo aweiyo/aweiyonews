@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aweiyo="http://schemas.android.com/apk/res/com.aweiyo.newmobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    	
+     	<TextView 
+        	 style="@style/TitleStyle"
+      	  android:text="设置中心"
+       	 />
+	
+		<com.aweiyo.newmobilesafe.view.SettingItemView
+		    android:id="@+id/siv_sett"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    aweiyo:title="自动更新状态"
+		    aweiyo:desc_on="自动更新已开"
+			aweiyo:desc_off="自动更新已关"
+			/>
+		<com.aweiyo.newmobilesafe.view.SettingClickView
+		    android:id="@+id/scv_address_style"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+			/>
+     	
+</LinearLayout> 
